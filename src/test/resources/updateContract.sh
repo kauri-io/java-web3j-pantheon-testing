@@ -1,0 +1,2 @@
+solc DocumentRegistry.sol --overwrite --bin --abi --optimize -o compiled/
+web3j solidity generate --javaTypes --binFile=compiled/DocumentRegistry.bin --abiFile=compiled/DocumentRegistry.abi -o ../java -p io.kauri.java.test
