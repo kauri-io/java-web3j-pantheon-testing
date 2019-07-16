@@ -32,6 +32,7 @@ public class TestWeb3jPantheon {
 
     private List<String> emittedDocumentHashes;
 
+    //This will start a Pantheon 1.1.3 node before all tests, and stop it after all tests have executed
     @ClassRule
     public static final GenericContainer pantheonContainer =
             new GenericContainer("pegasyseng/pantheon:1.1.3")

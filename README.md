@@ -1,2 +1,5 @@
 # java-web3j-pantheon-testing
-Testing web3j Ethereum interactions using a Pantheon node
+
+An example project demonstrating how to start up a Pantheon node for integration testing your java based Ethereum code.
+
+
